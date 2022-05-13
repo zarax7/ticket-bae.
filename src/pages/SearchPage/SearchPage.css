@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00b4cc;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+}
+
+.searchTerm:focus {
+  color: #00b4cc;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00b4cc;
+  background: #00b4cc;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wrap {
+  width: 30%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrap2 {
+  display: flex;
+  flex-direction: column;
+}
+
+table,
+td {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.td-event {
+  width: 600px;
+  height: 50px;
+}
+
+.form input {
+  width: 200px;
+  height: 25px;
+  border-color: teal;
+  border-radius: 5px;
+}
+
+button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  font-size: 14px;
+}
+
+button:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.shown {
+  background-color: rgb(230, 229, 228);
+  opacity: 0;
+}
+
+.hidden {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(48, 118, 232);
+  opacity: 1;
+}

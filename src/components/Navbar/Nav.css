@@ -1,0 +1,26 @@
+.nav-wrapper {
+  background-color: rgb(118, 118, 215);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  font-size: 16px;
+  color: white;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.link {
+  color: white;
+}
+
+.link:hover {
+  color: blue;
+}
